@@ -1,0 +1,175 @@
+/* Css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of css reset */
+
+body, html {
+	background-color:#363636;
+}
+
+#container {
+	max-width:500px;
+	width:100%;
+	margin:0px auto 0px auto;
+	background-color:#363636;
+	height:100%;
+}
+
+#header {
+	
+}
+
+#header h1 {
+	font-size:300%;
+	text-align:center;
+	color:orange;
+	padding:4% 2% 4% 2%;
+}
+
+#header h3 {
+	font-size:200%;
+	text-align:center;
+	padding:1%;
+	color:#A1C926;
+}
+
+#inputfields {
+	text-align:center;
+	color:#ffffff;
+}
+#budgetList{
+	background-color: #909090;
+	margin: auto;
+	width: 100%
+}
+#currentBudget{
+	background-color:#909090;
+	margin: auto;
+	width: 100%
+}
+#currentBudget tr{
+	color: #000000;
+	font-size: 24px;
+	text-align:center;
+}
+#currentBudget td{
+	padding: 10px 0px 10px 0px;
+}
+.deletepayment{
+	background-color: #EE4400;
+	width: 10%;
+	min-width: 35px;
+}
+.deletepayment:hover{
+	color: #FFFFFF;
+	background-color: orange;
+	width: 10%;
+	min-width: 35px;
+}
+
+.delete:hover{
+	background-color: #EE4400;
+	width: 10%;
+	min-width: 35px;
+}
+#budgetList tr{
+	color: #000000;
+	font-size: 24px;
+	text-align:center;
+}
+#budgetList td{
+	padding: 10px 0px 10px 0px;
+}
+
+.delete{
+	background-color: #EE4400;
+	width: 10%;
+	min-width: 35px;
+}
+
+#budgetList td:hover{
+	color: #FFFFFF;
+	background-color: orange;
+}
+#inputfields p {
+	font-size:200%;
+	margin-bottom:1%;
+}
+
+#inputfields p.lol {
+	font-size:100%;
+}
+.button {
+	border:none;
+	width:180px;
+	margin:2% 2% 2% 2%;
+	height:40px;
+	font-size:150%;
+}
+.button:hover{
+	background-color: #505050;
+	color: orange;
+}
+.unavailable {
+	background-color: grey;
+	border:none;
+	width:180px;
+	margin:2% 2% 2% 2%;
+	height:40px;
+	font-size:150%;
+}
+.typeinput {
+	width:70%;
+	height:40px;
+	font-size:200%;
+	margin-bottom:2%;
+	color:#fff;
+	background-color:#000;
+	border:none;
+}
+
+#budgetRemaining {
+	font-size:160%;
+	color:orange;
+}
